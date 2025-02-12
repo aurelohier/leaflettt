@@ -1,0 +1,13 @@
+body {
+  margin: 0; /* Supprime les marges par défaut */
+  background: url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvbmQlMjBkJyVDMyVBOWNyYW4lMjBvYyVDMyVBOWFufGVufDB8fDB8fHww') no-repeat center center; /* Remplace 'ton_image.jpg' par le chemin de ton image */
+  background-size: cover; /* Fait en sorte que l'image couvre toute la page */
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 30%;
+  right: 30%;
+}
